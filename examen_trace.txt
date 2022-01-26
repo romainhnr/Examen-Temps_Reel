@@ -1,0 +1,211 @@
+[Running] set PYTHONIOENCODING=utf8 && python -u "d:\Bureau\EPSI_I2\Dev_temps_reel\Examen-Dev\exam.py"
+
+Scheduler : 10:46:02
+	Pump 1 : READY	(Deadline = 10:46:02, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:02, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 1)
+	Pump 1 : Starting (10:46:02)
+	Pump 1 : produce 10 oil - Current tank storage : 10
+	Pump 1 : Ending (10:46:04)
+
+Scheduler : 10:46:04
+	Pump 1 : SLEEPING	(Deadline = 10:46:07, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Pump 2 : Starting (10:46:04)
+	Pump 2 : produce 20 oil - Current tank storage : 30
+	Pump 2 : Ending (10:46:07)
+
+Scheduler : 10:46:07
+	Pump 1 : READY	(Deadline = 10:46:07, Priority = 3)
+	Pump 2 : SLEEPING	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Pump 1 : Starting (10:46:07)
+	Pump 1 : produce 10 oil - Current tank storage : 40
+	Pump 1 : Ending (10:46:09)
+
+Scheduler : 10:46:09
+	Pump 1 : SLEEPING	(Deadline = 10:46:12, Priority = 3)
+	Pump 2 : SLEEPING	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 1 : Starting (10:46:09)
+	Machine 1 : produce 1 motor - Current tank storage : 15 - Current motor stock storage : 1
+	Machine 1 : Ending (10:46:14)
+
+Scheduler : 10:46:14
+	Pump 1 : READY	(Deadline = 10:46:12, Priority = 3)
+	Pump 2 : SLEEPING	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Pump 1 : Starting (10:46:14)
+	Pump 1 : produce 10 oil - Current tank storage : 25
+	Pump 1 : Ending (10:46:16)
+
+Scheduler : 10:46:16
+	Pump 1 : SLEEPING	(Deadline = 10:46:17, Priority = 3)
+	Pump 2 : SLEEPING	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:02, Priority = 3)
+	Machine 2 : Starting (10:46:16)
+	Machine 2 : produce 1 wheel - Current tank storage : 20 - Current wheel stock storage : 1
+	Machine 2 : Ending (10:46:19)
+
+Scheduler : 10:46:19
+	Pump 1 : READY	(Deadline = 10:46:17, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:07, Priority = 3)
+	Pump 1 : Starting (10:46:19)
+	Pump 1 : produce 10 oil - Current tank storage : 30
+	Pump 1 : Ending (10:46:21)
+
+Scheduler : 10:46:21
+	Pump 1 : SLEEPING	(Deadline = 10:46:22, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:17, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:07, Priority = 3)
+	Pump 2 : Starting (10:46:21)
+	Pump 2 : produce 20 oil - Current tank storage : 50
+	Pump 2 : Ending (10:46:24)
+
+Scheduler : 10:46:24
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 3)
+	Pump 2 : SLEEPING	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:07, Priority = 3)
+	Machine 2 : Starting (10:46:24)
+	Machine 2 : produce 1 wheel - Current tank storage : 45 - Current wheel stock storage : 2
+	Machine 2 : Ending (10:46:27)
+
+Scheduler : 10:46:27
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : SLEEPING	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:12, Priority = 3)
+	Machine 2 : Starting (10:46:27)
+	Machine 2 : produce 1 wheel - Current tank storage : 40 - Current wheel stock storage : 3
+	Machine 2 : Ending (10:46:31)
+
+Scheduler : 10:46:31
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : SLEEPING	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:17, Priority = 3)
+	Machine 2 : Starting (10:46:31)
+	Machine 2 : produce 1 wheel - Current tank storage : 35 - Current wheel stock storage : 4
+	Machine 2 : Ending (10:46:34)
+
+Scheduler : 10:46:34
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:22, Priority = 3)
+	Machine 2 : Starting (10:46:34)
+	Machine 2 : produce 1 wheel - Current tank storage : 30 - Current wheel stock storage : 5
+	Machine 2 : Ending (10:46:37)
+
+Scheduler : 10:46:37
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:07, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:27, Priority = 3)
+	Machine 1 : Starting (10:46:37)
+	Machine 1 : produce 1 motor - Current tank storage : 5 - Current motor stock storage : 2
+	Machine 1 : Ending (10:46:42)
+
+Scheduler : 10:46:42
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:27, Priority = 1)
+	Machine 2 : Starting (10:46:42)
+	Machine 2 : produce 1 wheel - Current tank storage : 0 - Current wheel stock storage : 6
+	Machine 2 : Ending (10:46:45)
+
+Scheduler : 10:46:45
+	Pump 1 : READY	(Deadline = 10:46:22, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 1 : Starting (10:46:45)
+	Pump 1 : produce 10 oil - Current tank storage : 10
+	Pump 1 : Ending (10:46:47)
+
+Scheduler : 10:46:47
+	Pump 1 : READY	(Deadline = 10:46:27, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 3)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 1 : Starting (10:46:47)
+	Pump 1 : produce 10 oil - Current tank storage : 20
+	Pump 1 : Ending (10:46:49)
+
+Scheduler : 10:46:49
+	Pump 1 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 1 : Starting (10:46:49)
+	Pump 1 : produce 10 oil - Current tank storage : 30
+	Pump 1 : Ending (10:46:51)
+
+Scheduler : 10:46:51
+	Pump 1 : READY	(Deadline = 10:46:37, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 1 : Starting (10:46:51)
+	Pump 1 : produce 10 oil - Current tank storage : 40
+	Pump 1 : Ending (10:46:53)
+
+Scheduler : 10:46:53
+	Pump 1 : READY	(Deadline = 10:46:42, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Pump 1 : Starting (10:46:53)
+	Pump 1 : produce 10 oil - Current tank storage : 50
+	Pump 1 : Ending (10:46:55)
+
+Scheduler : 10:46:55
+	Pump 1 : READY	(Deadline = 10:46:47, Priority = 3)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:32, Priority = 3)
+	Machine 2 : Starting (10:46:55)
+	Machine 2 : produce 1 wheel - Current tank storage : 45 - Current wheel stock storage : 7
+	Machine 2 : Ending (10:46:58)
+
+Scheduler : 10:46:58
+	Pump 1 : READY	(Deadline = 10:46:47, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:37, Priority = 3)
+	Machine 2 : Starting (10:46:58)
+	Machine 2 : produce 1 wheel - Current tank storage : 40 - Current wheel stock storage : 8
+	Machine 2 : Ending (10:47:01)
+
+Scheduler : 10:47:01
+	Pump 1 : READY	(Deadline = 10:46:47, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:42, Priority = 3)
+	Machine 2 : Starting (10:47:01)
+	Machine 2 : produce 1 wheel - Current tank storage : 35 - Current wheel stock storage : 9
+	Machine 2 : Ending (10:47:04)
+
+Scheduler : 10:47:04
+	Pump 1 : READY	(Deadline = 10:46:47, Priority = 1)
+	Pump 2 : READY	(Deadline = 10:46:32, Priority = 1)
+	Machine 1 : READY	(Deadline = 10:46:12, Priority = 1)
+	Machine 2 : READY	(Deadline = 10:46:47, Priority = 3)
+System Shutdown
+Total Production in one minute
+Motor Production : 2 - Wheel Production : 9
+Number of couple (1 moteur and 4 wheels) created : 2
+
+[Done] exited with code=0 in 61.224 seconds
